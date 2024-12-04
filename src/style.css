@@ -1,0 +1,25 @@
+main {
+    position: relative;
+}
+
+.retangulo {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+}
+
+.retangulo1 {
+    bottom: 0;
+    left: 0;
+}
+
+.retangulo2 {
+    right: 0;
+    top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .retangulo {
+      display: none;
+    }
+}
