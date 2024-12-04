@@ -22,10 +22,27 @@ main {
     .retangulo {
       display: none;
     }
+    .aumentador {
+        width: 12rem;
+    }
+}
+
+@media only screen and (max-height: 720px) {
+    .retangulo1 {
+      display: none;
+    }
+
+    main {
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-height: 750px) {
     .retangulo {
       display: none;
+    }
+
+    main {
+        justify-content: center;
     }
 }
